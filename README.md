@@ -56,7 +56,7 @@ TAD66K/
 - Python 3.8+
 - PyTorch 1.7+
 - NNI 2.0+
-- 其他依赖见 `requirements.txt`（如有）
+- 其他依赖见 `requirements.txt`
 
 ### 安装依赖
 
@@ -100,7 +100,7 @@ nnictl status
 python imagename2csv.py --input_dir path/to/images --output_dir dataset/
 ```
 
-## 📊 数据集
+## 📊 数据集(AVA)
 
 数据集包含多个类别的图像质量评估数据：
 
@@ -147,11 +147,6 @@ epochs: 50
 - **SRCC**: Spearman 秩相关系数
 - **LCC**: 线性相关系数
 - **MSE**: 均方误差
-
-预训练模型性能（示例）：
-- SRCC: 0.513
-- LCC: 0.531
-- MSE: 0.16
 
 ## 🎓 论文摘要
 
